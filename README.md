@@ -9,7 +9,7 @@
     * React, SCSS frameworks used
     * eslint, prettier, vitest for code quality, with MVP config to just get them running quickly (see package.json for scripts to run these)
 
-
+---
 
 
 # On the Beach Frontend Software Engineer code test
