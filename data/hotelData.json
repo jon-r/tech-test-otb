@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Iberostar Grand Salome",
+    "location": "Costa Adeje, Tenerife",
+    "rating": 5,
+    "guests": "2 Adults, 2 children & 1 infant",
+    "departureDate": "2019-07-03T12:00:00.000Z",
+    "durationDays": 7,
+    "departingFrom": "East Midlands",
+    "priceGBP": 1136.5,
+    "description": "The Iberostar Grand Salome has an excellent location in the south of Tenerife, overlooking the Atlantic Ocean. It is situated between the Gold del Sur and the Amarillo Golf COurses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea.",
+    "image": "/hotel-image-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Aquamarina Gold Hotel",
+    "location": "Costa Adeje, Tenerife",
+    "rating": 4,
+    "guests": "2 Adults, 2 children & 1 infant",
+    "departureDate": "2019-05-27T12:00:00.000Z",
+    "durationDays": 7,
+    "departingFrom": "Liverpool",
+    "priceGBP": 696.8,
+    "description": "The Aquamarina Gold Hotel has an excellent location in the south of Tenerife, overlooking the Atlantic Ocean. It is situated between the Gold del Sur and the Amarillo Golf COurses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea.",
+    "image": "/hotel-image-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Las Piramides Resort",
+    "location": "Costa Adeje, Tenerife",
+    "rating": 3,
+    "guests": "2 Adults, 2 children & 1 infant",
+    "departureDate": "2019-07-03T12:00:00.000Z",
+    "durationDays": 7,
+    "departingFrom": "Manchester",
+    "priceGBP": 499.99,
+    "description": "The Las Piramides Resort has an excellent location in the south of Tenerife, overlooking the Atlantic Ocean. It is situated between the Gold del Sur and the Amarillo Golf COurses, and is an ideal hotel for families, couples and groups who are looking for a holiday full of sport, sun and sea.",
+    "image": "/hotel-image-3.png"
+  }
+]

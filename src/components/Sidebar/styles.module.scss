@@ -1,0 +1,67 @@
+@import "../../assets/styles/mixin";
+@import "../../assets/styles/var";
+
+.sidebar {
+  @include flexCols(1);
+
+  display: flex;
+
+  @include display(desktop) {
+    flex-direction: column;
+  }
+
+  &__button {
+    @include buttonReset();
+
+    flex: 1;
+
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: $theme-light;
+    color: $theme-blue;
+    display: flex;
+    justify-content: space-around;
+
+    & + & {
+      border-top: 2px solid $theme-blue;
+    }
+
+    &--is-active {
+      background-color: $theme-blue;
+      color: $theme-light;
+    }
+
+    @include display(desktop) {
+      flex: none;
+      justify-content: space-between;
+    }
+  }
+
+  &__text {
+    display: none;
+
+    @include display(tablet) {
+      display: inline;
+    }
+  }
+
+  &__icon {
+    font-size: 1.5em;
+    &:not(&--is-active) {
+      color: $theme-mid;
+    }
+  }
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}

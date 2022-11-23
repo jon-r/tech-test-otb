@@ -1,0 +1,17 @@
+@import "./assets/styles/mixin";
+@import "./assets/styles/var";
+
+:root {
+  background: fixed url("./assets/background.png") center/contain repeat-x
+    $theme-blue-bg;
+}
+
+.app {
+  max-width: 1280px;
+
+  @include display(desktop) {
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: row;
+  }
+}

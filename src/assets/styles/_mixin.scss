@@ -1,0 +1,32 @@
+@import "./var";
+
+@mixin display($size) {
+  $breakpoint: map-get($breakpoints, $size);
+
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin flexCols($size) {
+  margin-bottom: 2rem;
+
+  @include display(tablet) {
+    flex: $size $size ($screen-col * $size);
+    margin: 2rem 1rem;
+  }
+
+  @include display(desktop) {
+    margin: 0 2rem;
+  }
+}
+
+@mixin buttonReset() {
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+
+  &:focus {
+    box-shadow: inset 0 0 2px $theme-blue;
+  }
+}

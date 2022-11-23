@@ -1,0 +1,18 @@
+@use "sass:math";
+
+// dimensions
+$breakpoints: (
+  tablet: 768px,
+  desktop: 1024px,
+);
+$max-screen: 1200px;
+$screen-col: math.div($max-screen, 6);
+
+// colours
+$theme-blue-bg: #5ec4ee;
+$theme-blue: #17317f;
+$theme-yellow: #fedc07;
+
+$theme-light: white;
+$theme-mid: #d4d4d4;
+$theme-dark: #222222;
